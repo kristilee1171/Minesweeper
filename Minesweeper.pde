@@ -21,13 +21,12 @@ void setup ()
         buttons[r][c] = new MSButton(r,c);
       }
     }
-    
-    
-    
     setBombs();
 }
 public void setBombs()
 {
+  int row = (int) (Math.random() * 20);
+  int col = (int) (Math.random() * 20);
     
 }
 
@@ -117,6 +116,3 @@ public class MSButton
         return numBombs;
     }
 }
-
-
-
